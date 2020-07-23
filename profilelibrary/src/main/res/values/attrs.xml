@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProfileView">
+        <attr name="image" format="reference"/>
+        <attr name="username" format="string"/>
+        <attr name="email" format="string"/>
+        <attr name="number" format="string"/>
+    </declare-styleable>
+</resources>
