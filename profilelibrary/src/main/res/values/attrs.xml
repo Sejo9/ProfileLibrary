@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="ProfileView">
-        <attr name="image" format="reference"/>
-        <attr name="username" format="string"/>
-        <attr name="email" format="string"/>
-        <attr name="number" format="string"/>
+        <attr name="image" format="reference" />
+        <attr name="username" format="string" />
+        <attr name="email" format="string" />
+        <attr name="number" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PulseLoader">
+        <attr name="barColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FillButton">
+        <attr name="backColor" format="color" />
+        <attr name="frontColor" format="color" />
     </declare-styleable>
 </resources>

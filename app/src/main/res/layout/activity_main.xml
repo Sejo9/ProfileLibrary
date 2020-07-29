@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.sejo.customviews.MainActivity">
 
-    <com.sejo.profilelibrary.ProfileView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:image="@mipmap/ic_launcher"
-        app:username="Kaiser"
-        app:email="kaiser@gamestudio.com"
-        app:number="0267894560" />
+    <com.sejo.profilelibrary.FillButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="10dp"
+        app:frontColor="@color/colorAccent"
+        android:layout_gravity="bottom" />
 
 </LinearLayout>
